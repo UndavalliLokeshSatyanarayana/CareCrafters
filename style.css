@@ -1,0 +1,168 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.logoimg {
+
+    width:10vw;
+    height:15vh;
+}
+
+.cta-buttons{
+    align-items: right;
+    justify-content: right;
+}
+.cta-button1{
+    align-items:center;
+    justify-items: center;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+
+}
+
+nav li {
+    margin-right: 20px;
+    background-color: rgb(217, 239, 223);
+    border-radius: 5%;
+    color: rgb(4, 2, 17);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    color: rgb(16, 225, 215);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 25px;
+}
+.xplobutton{
+    align-items: center;
+}
+
+
+.cta-button {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Add additional CSS for other sections as needed */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Add styles for the services section */
+#services {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    flex: 1;
+    max-width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f0f0f0;
+    text-align: left;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+/* Adjust styles as needed */

@@ -1,0 +1,43 @@
+.profile-display{
+    background-color: rgb(226, 220, 220);
+    width:50vw;
+    height:95vh;
+    margin: 5% 25%;
+    padding: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    box-shadow: 2px 2px 20px 2px grey;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading{
+    color: white;
+    text-align: center;
+}
+input{
+    border-radius:5PX 5PX 5PX 5PX ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.profile-content {
+    display: inline-block;
+    text-align: left;
+}
+
+.profile-content label {
+    display: block;
+    margin: 10px 0;
+}
+.profile-content input{
+    align-items: right;
+}
